@@ -1,0 +1,95 @@
+// config/mapping_config.json
+{
+  "archetype_id": "openEHR-EHR-OBSERVATION.phq4.v1",
+  "template_id": "PHQ4_template",
+  "fields": {
+    "phq5a": {
+      "archetype_node_id": "at0005",
+      "type": "DV_ORDINAL",
+      "answers": {
+        "Überhaupt nicht": {
+          "value": 0,
+          "code": "at0006"
+        },
+        "An einzelnen Tagen": {
+          "value": 1,
+          "code": "at0007"
+        },
+        "An mehr als der Hälfte der Tage": {
+          "value": 2,
+          "code": "at0008"
+        },
+        "Beinahe jeden Tag": {
+          "value": 3,
+          "code": "at0009"
+        }
+      }
+    },
+    "phq5b": {
+      "archetype_node_id": "at0010",
+      "type": "DV_ORDINAL",
+      "answers": {
+        "Überhaupt nicht": {
+          "value": 0,
+          "code": "at0013"
+        },
+        "An einzelnen Tagen": {
+          "value": 1,
+          "code": "at0014"
+        },
+        "An mehr als der Hälfte der Tage": {
+          "value": 2,
+          "code": "at0015"
+        },
+        "Beinahe jeden Tag": {
+          "value": 3,
+          "code": "at0016"
+        }
+      }
+    },
+    "phq2a": {
+      "archetype_node_id": "at0017",
+      "type": "DV_ORDINAL",
+      "answers": {
+        "Überhaupt nicht": {
+          "value": 0,
+          "code": "at0019"
+        },
+        "An einzelnen Tagen": {
+          "value": 1,
+          "code": "at0020"
+        },
+        "An mehr als der Hälfte der Tage": {
+          "value": 2,
+          "code": "at0021"
+        },
+        "Beinahe jeden Tag": {
+          "value": 3,
+          "code": "at0022"
+        }
+      }
+    },
+    "phq2b": {
+      "archetype_node_id": "at0018",
+      "type": "DV_ORDINAL",
+      "answers": {
+        "Überhaupt nicht": {
+          "value": 0,
+          "code": "at0023"
+        },
+        "An einzelnen Tagen": {
+          "value": 1,
+          "code": "at0024"
+        },
+        "An mehr als der Hälfte der Tage": {
+          "value": 2,
+          "code": "at0025"
+        },
+        "Beinahe jeden Tag": {
+          "value": 3,
+          "code": "at0026"
+        }
+      }
+    }
+  }
+}
